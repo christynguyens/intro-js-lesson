@@ -41,11 +41,16 @@ console.log(student);
 function doubleNumber(num) {
     return num+num;
 }
+console.log(num+num);
+
 // 2. Create a squareNumber function that takes in 1 number parameter and returns the square
 function squareNumber(num) {
     return num*num;
 }
+console.log(num*num);
+
 // 3. Create a productNumber function that takes in 2 number parameters and returns the product of the 2 numbers
 function productNumber(num1, num2) {
     return num1*num2;
 }
+console.log(num1*num2);
