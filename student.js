@@ -50,7 +50,9 @@ function squareNumber(num) {
 console.log(num*num);
 
 // 3. Create a productNumber function that takes in 2 number parameters and returns the product of the 2 numbers
-function productNumber(num1, num2) {
-    return num1*num2;
+const productNumber = (num1, num2) => 
+{
+    return num1 * num2; 
 }
-console.log(num1*num2);
+
+console.log(productNumber(num1, num2));
