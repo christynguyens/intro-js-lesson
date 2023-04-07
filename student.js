@@ -56,3 +56,32 @@ const productNumber = (num1, num2) =>
 }
 
 console.log(productNumber(num1, num2));
+
+
+/*
+========== LESSON 3 - NUMBERS ==========
+*/
+
+// 1. Create a sumOfThree function statement that takes in 3 number parameter and returns sum.
+function sumOfThree(num1, num2, num3) {
+    return num1 + num2 + num3;
+  }
+
+// 2. Create a productofThree function expression that takes in 3 number parameter and returns the quotient.
+const productOfThree = function(num1, num2, num3) {
+    return num1 / num2 / num3;
+  }
+
+// 3. Create a getRemainder arrow function that takes in 2 number parameters and returns the remainder of the first number divided by the second number
+const getRemainder = (num1, num2) => num1 % num2;
+
+// 4. Create a getRootRounded function that takes in 1 number, and returns the absolute value's square root, rounded up. Note: negative numbers should have their absolute value taken to still work.
+function getRootRounded(num) {
+    return Math.ceil(Math.sqrt(Math.abs(num)));
+  }
+
+// 5. Create a getRandom function that returns a random number from 1-100.
+function getRandom() {
+  return Math.random() * (100-1) + 1;
+}
+
